@@ -1,0 +1,13 @@
+О себе, Образование,
+Кастомные шрифты - подключаемые файлками Roboto, ПТСанс
+Flex box call(1-12) (bootstrap )
+Три темы светлая, темная , автоматическая (смотрим на тему в винде)
+Прилипающая шапка скролю вниз - ее нет, скролю вверх 20пх - она появляется плавно сверху. (JQuery)
+Ресайз картинки 
+Вадим Макеев - про шрифты.
+
+httpsyoumightnotneedjquery.com
+httpsruseller.comlessons.phpid=1349
+httpsdev-gang.ruarticlenativnye-analogi-jquery-93vqf10ia8
+
+httpscodepip.comgamesgrid-garden

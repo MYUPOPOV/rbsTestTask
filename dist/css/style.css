@@ -1,0 +1,169 @@
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'), url('../fonts/Roboto-Regular.woff2') format('woff2'),
+  url('../fonts/Roboto-Regular.woff') format('woff');
+	font-style: normal;
+	font-weight: normal;
+  font-display:swap;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'), url('../fonts/Roboto-Italic.woff2') format('woff2'),
+  url('../fonts/Roboto-Italic.woff') format('woff');
+	font-style: italic;
+	font-weight: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'), url('../fonts/Roboto-Bold.woff2') format('woff2'),
+  url('../fonts/Roboto-Bold.woff') format('woff');
+	font-style: normal;
+	font-weight: bold;
+  font-display: swap;
+}
+
+html {
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+  color:rgb(17, 54, 42);
+}
+
+.section-wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.section-background-filled {
+  background-color:rgb(127, 255, 212, 0.1);
+}
+
+.header {
+  background-color:rgb(127, 255, 212, 0.3);
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-menu-items {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+.header-menu-item {
+  margin-left: 30px;
+  cursor: pointer;
+}
+.header-menu-theme-button {
+  font-size: 0.9rem;
+  border: solid 1px;
+  padding: 5px;
+  cursor: pointer;
+}
+.header-menu-theme-button:hover {
+  background-color: rgb(127, 255, 212, 0.5);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.i1-general {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 800px;
+}
+.i1-general-left-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  justify-content: center;
+}
+.i1-general-picture-img {
+  height: 500px;
+  border-radius: 250px;
+}
+
+.i2-skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center; 
+  height: 500px;
+}
+.i2-skills-item {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; 
+}
+.i2-skills-item-box {
+  border: solid 1px;
+  background-color: rgb(127, 255, 212, 0.5);
+  padding: 2px;
+  padding-left: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+}
+.i2-skills-left-block {
+  width: 50%;
+}
+/* .i2-skills-item */
+/* .i2-skills-right-block */
+
+.i3-exp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center; 
+  height: 500px;
+}
+
+
+
+.i3-exp-left-block {
+  /* width: 100%; */
+}
+.i3-exp-right-block {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  justify-content: space-evenly;
+}
+/* .i3-exp-profie */
+
+
+
+
+.footer {
+  display: flex;
+  align-items: center;
+  background-color:rgb(127, 255, 212, 0.3);
+  height: 50px;
+}
+.footer-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
