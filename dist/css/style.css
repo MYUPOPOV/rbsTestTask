@@ -187,10 +187,10 @@ body {
 }
 .i4-portfolio-git-line2-1 {
   width: 648px;
-  height: 50px;
+  height: 70px;
   border: solid 2px;
   margin: 10px;
-  background-size: 17%;
+  background-size: 100%;
   cursor: pointer;
 }
 
