@@ -48,7 +48,7 @@ body {
 
 .header {
   background-color:rgb(127, 255, 212, 0.3);
-  height: 50px;
+  height: 60px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -209,6 +209,17 @@ body {
   justify-content: space-evenly;
   align-items: center;
 }
+.i5-about-choose {
+  display: flex;
+  justify-content: row;
+}
+.i5-about-choose-block{
+  background-color: rgb(127, 255, 212, 0.3);
+  border: solid 1px;
+  padding: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
 
 .i6-contacts {
   display: flex;
@@ -235,7 +246,7 @@ body {
   display: flex;
   align-items: center;
   background-color:rgb(127, 255, 212, 0.3);
-  height: 50px;
+  height: 60px;
 }
 .footer-wrapper {
   width: 80%;
