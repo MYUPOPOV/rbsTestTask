@@ -25,7 +25,7 @@
 
 html {
   font-family: 'Roboto';
-  font-size: 14px;
+  font-size: 18px;
 }
 body {
 	box-sizing: border-box;
@@ -52,6 +52,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  position: sticky;
 }
 .header-menu {
   display: flex;
@@ -97,8 +98,8 @@ body {
   justify-content: center;
 }
 .i1-general-picture-img {
-  height: 500px;
-  border-radius: 250px;
+  height: 400px;
+  border-radius: 200px;
 }
 
 .i2-skills {
@@ -118,16 +119,14 @@ body {
   border: solid 1px;
   background-color: rgb(127, 255, 212, 0.5);
   padding: 2px;
-  padding-left: 10px;
+  padding-left: 5px;
   margin-left: 10px;
-  margin-right: 10px;
-  
+  margin-right: 10px; 
+  font-size: 0.9rem;
 }
 .i2-skills-left-block {
   width: 50%;
 }
-/* .i2-skills-item */
-/* .i2-skills-right-block */
 
 .i3-exp {
   display: flex;
@@ -136,34 +135,71 @@ body {
   align-items: center; 
   height: 400px;
 }
-
-
-
-.i3-exp-left-block {
-  /* width: 100%; */
-}
 .i3-exp-right-block {
-  width: 50%;
+  width: 60%;
   display: flex;
   flex-direction: column;
   text-align: justify;
   justify-content: space-evenly;
 }
-/* .i3-exp-profie */
+.i3-exp-text-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+.i3-exp-profie {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .i4-portfolio {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center; 
-  height: 400px;
+  /* flex-wrap: nowrap; */
+  height: 550px;
 }
+.i4-portfolio-left-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center;  */
+}
+.i4-portfolio-git-line {
+  /* width: 100%; */
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-evenly; */
+  /* align-items: center;  */
+}
+.i4-portfolio-git-line1-1 {
+  width: 200px;
+  height: 100px;
+  border: solid 2px;
+  margin: 10px;
+  background-size: 100%;
+  cursor: pointer;
+}
+.i4-portfolio-git-line2-1 {
+  width: 648px;
+  height: 50px;
+  border: solid 2px;
+  margin: 10px;
+  background-size: 17%;
+  cursor: pointer;
+}
+
 .i5-about {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center; 
-  height: 400px;
+  height: 700px;
 }
 .i5-about-right-block {
   width: 50%;
@@ -171,13 +207,27 @@ body {
   flex-direction: column;
   text-align: justify;
   justify-content: space-evenly;
+  align-items: center;
 }
+
 .i6-contacts {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center; 
   height: 400px;
+}
+.i6-contacts-left-block {
+  font-size: 18px;
+}
+.i6-contacts-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+}
+.i6-contacts-picture {
+  height: 18px;
+  margin-left: 5px;
 }
 
 
