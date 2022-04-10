@@ -52,7 +52,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  position: sticky;
+  /* position: sticky; */
 }
 .header-menu {
   display: flex;
@@ -120,6 +120,9 @@ body {
   justify-content: space-evenly;
   align-items: center;
 }
+.i2-skills-all-items {
+  width: 80%;
+}
 .i2-skills-item {
   margin-top: 10px;
   display: flex;
@@ -131,7 +134,7 @@ body {
   border: solid 1px;
   background-color: rgb(127, 255, 212, 0.5);
   padding: 2px;
-  padding-left: 5px;
+  padding-left: 10px;
   margin-left: 10px;
   margin-right: 10px; 
   font-size: 0.9rem;
@@ -271,6 +274,7 @@ body {
   height: 230px;
   border: solid 1px;
   border-radius: 50%;
+  background-size: 100%
 }
 .i5-about-content-part-text {
   /* width: 80%; */
