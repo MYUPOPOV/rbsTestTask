@@ -10,7 +10,7 @@ skillsAnimation([
 		value: 50,
 	},
 	{
-		skill: 'JavaSript',
+		skill: 'JAVASCRIPT',
 		value: 80,
 	},
 	{
