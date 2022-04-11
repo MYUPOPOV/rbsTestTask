@@ -200,23 +200,30 @@ a {
   /* justify-content: space-evenly; */
   /* align-items: center;  */
 }
-.i4-portfolio-git-line1-1 {
-  width: 200px;
-  height: 100px;
-  border: solid 2px;
-  margin: 10px;
-  background-size: 100%;
-  cursor: pointer;
-}
-.i4-portfolio-git-line2-1 {
-  width: 648px;
+.i4-portfolio-git-line1-0 {
+  opacity: 1;
+  width: 706px;
   height: 60px;
-  border: solid 2px;
+  border: solid 1px;
+  margin: 10px;
+  background-size: 100%;
+  padding: 1px;
+  cursor: pointer;
+}
+.i4-portfolio-git-line1-0:hover {
+  opacity: 0.7;
+ }
+.i4-portfolio-git-line1-1 {
+  width: 220px;
+  height: 120px;
+  border: solid 1px;
   margin: 10px;
   background-size: 100%;
   cursor: pointer;
 }
-
+.i4-portfolio-git-line1-1:hover {
+ opacity: 0.7;
+}
 .i5-about {
   display: flex;
   flex-direction: row;
