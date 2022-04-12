@@ -1,9 +1,13 @@
 import chooseAbout from './modules/chooseAbout';
 import scrollIntoView from './modules/scrollIntoView';
+import changeTheme from './modules/changeTheme';
 import skillsAnimation from './modules/skillsAnimation';
+
+
 
 chooseAbout();
 scrollIntoView();
+changeTheme();
 skillsAnimation(
 	[
 		{
