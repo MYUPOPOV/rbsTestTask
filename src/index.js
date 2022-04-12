@@ -1,13 +1,13 @@
 import chooseAbout from './modules/chooseAbout';
 import scrollIntoView from './modules/scrollIntoView';
 import changeTheme from './modules/changeTheme';
+import stickMenu from './modules/stickMenu';
 import skillsAnimation from './modules/skillsAnimation';
-
-
 
 chooseAbout();
 scrollIntoView();
 changeTheme();
+stickMenu();
 skillsAnimation(
 	[
 		{
