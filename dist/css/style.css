@@ -133,6 +133,7 @@ a {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center; 
+  opacity: 0;
 }
 .i2-skills-item-box {
   border: solid 1px;

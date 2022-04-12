@@ -1,28 +1,43 @@
 import { animate } from './helpers';
 
-const skillsAnimation = (skillsArray) => {
+const skillsAnimation = (skillsArray, time) => {
 	const skillItems = document.querySelectorAll('.i2-skills-item');
+	const skillsBlock = document.getElementById('skills');
+	let index = 0;
+	let isSkillsAnimationShown = false;
 
-	console.log(skillsArray);
-	console.log(skillItems);
-
-	skillItems.forEach((item, index) => {
-		item.querySelector('.skill-name').textContent = skillsArray[index].skill;
-		// item.querySelector('.skill-value').textContent = skillsArray[index].value + '%';
-
-		// item.querySelector('.skill-name').style.width
-		// console.log(item.querySelector('.skill-name').style.width);
-
+	const getItemText = (index) => {
+		skillItems[index].querySelector('.skill-value').textContent = skillsArray[index].value + '%';
+		skillItems[index].querySelector('.skill-name').textContent = skillsArray[index].skill;
+		index++;
+		if (index < skillItems.length) {
+			animateItem(index, time);
+		}
+	};
+	const animateItem = (index, time) => {
+		skillItems[index].style.opacity = '1';
 		animate({
-			duration: 500,
+			duration: time,
 			timing(timeFraction) {
 				return timeFraction;
 			},
 			draw(progress) {
-				item.querySelector('.skill-name').style.width = `${progress * skillsArray[index].value}%`;
-				item.querySelector('.skill-value').textContent = `${progress * skillsArray[index].value}%`;
+				skillItems[index].querySelector('.skill-name').style.width = `${progress * skillsArray[index].value}%`;
+				if (progress >= 1) {
+					getItemText(index);
+				}
 			},
 		});
+	};
+
+	window.addEventListener('scroll', () => {
+		const blockY = skillsBlock.getBoundingClientRect().bottom;
+		const pageY = window.pageYOffset + skillsBlock.getBoundingClientRect().height;
+
+		if (blockY < pageY && !isSkillsAnimationShown) {
+			isSkillsAnimationShown = true;
+			animateItem(index, time);
+		}
 	});
 };
 export default skillsAnimation;
