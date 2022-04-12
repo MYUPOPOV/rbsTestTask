@@ -27,7 +27,6 @@ html {
   font-family: 'Roboto';
   font-size: 18px;
 }
-/* dark-mode */
 body {
 	box-sizing: border-box;
 	margin: 0;
@@ -45,27 +44,23 @@ body.dark-mode {
   font-size: 2rem;
   font-weight: bold;
 }
-/* dark-mode */
 .section-background-filled {
   background-color:rgb(127, 255, 212, 0.1);
 }
 .section-background-filled.dark-mode {
   background-color: rgb(0, 0, 0, 0.95);
 }
-
 a {
   display: block;
   height: 100%;
 }
-
-/* dark-mode */
 .header {
-  background-color:rgb(127, 255, 212, 0.3);
+  background-color:rgb(127, 255, 212, 0.6);
   height: 60px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  /* position: sticky; */
+  position: sticky;
 }
 .header.dark-mode {
   background-color: rgb(0, 0, 0, 1);
@@ -85,7 +80,6 @@ a {
   margin-left: 30px;
   cursor: pointer;
 }
-/* dark-mode */
 .header-menu-theme-button {
   font-size: 0.9rem;
   border: solid 1px;
@@ -93,7 +87,7 @@ a {
   cursor: pointer;
 }
 .header-menu-theme-button:hover {
-  background-color: rgb(127, 255, 212, 0.5);
+  background-color: rgb(127, 255, 212, 1);
 }
 .main {
   display: flex;
@@ -149,7 +143,6 @@ a {
   align-items: center; 
   opacity: 0;
 }
-/* dark-mode */
 .i2-skills-item-box {
   border: solid 1px;
   background-color: rgb(127, 255, 212, 0.5);
@@ -182,7 +175,6 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 .i3-exp-profie {
   width: 80%;
@@ -263,7 +255,6 @@ a {
   justify-content: space-evenly;
 
 }
-/* dark-mode */
 .i5-about-choose-block{
   width: 15%;
   background-color: rgb(127, 255, 212, 0.3);
@@ -276,7 +267,7 @@ a {
   align-items: center;
 }
 .i5-about-choose-block:hover {
-  background-color: rgb(127, 255, 212, 0.5);
+  background-color: rgb(127, 255, 212, 0.7);
 }
 .i5-about-content {
   display: flex;
@@ -327,11 +318,10 @@ a {
   height: 18px;
   margin-left: 5px;
 }
-/* dark-mode */
 .footer {
   display: flex;
   align-items: center;
-  background-color:rgb(127, 255, 212, 0.3);
+  background-color:rgb(127, 255, 212, 0.6);
   height: 60px;
 }
 .footer.dark-mode {

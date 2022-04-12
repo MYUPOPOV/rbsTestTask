@@ -1,12 +1,28 @@
+import { animate } from './helpers';
+
 const stickMenu = () => {
+	const header = document.querySelector('.header');
 	let lastScrollTop = window.pageYOffset;
 
-	window.addEventListener('scroll', () => {
-		// console.log('lastScrollTop: ', lastScrollTop);
-		// console.log('window.pageYOffset: ', window.pageYOffset);
+	const menuAnimate = (time) => {
+		animate({
+			duration: time,
+			timing(timeFraction) {
+				return timeFraction;
+			},
+			draw(progress) {
+				header.style.top = `${-60 + progress * 60}px`;
+			},
+		});
+	};
 
+	window.addEventListener('scroll', () => {
 		if (window.pageYOffset < lastScrollTop) {
-			console.log('Показываем меню');
+			if (header.style.top != '0px' && header.style.top.substr(0, 1) !== '-') {
+				menuAnimate(1000);
+			}
+		} else {
+			header.style.top = '';
 		}
 		lastScrollTop = window.pageYOffset;
 	});
