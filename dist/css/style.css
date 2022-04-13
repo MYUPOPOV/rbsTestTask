@@ -364,13 +364,13 @@ a {
     align-items: center;
   }
   .header-menu-items {
-    font-size: 0.9rem;
+    font-size: 0.6rem;
     margin-left: 0;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
   }
   .header-menu-item {
-    margin-left: 10px;
+    margin-right: 7px;
   }
   .i1-general {
     width: 100%;
@@ -380,8 +380,12 @@ a {
     margin-top: 0;
     margin-bottom: 30px;
   }
-  .section-title .i1-general-title {
-    font-size: 0.8rem;
+  .section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .i1-general-title {
+    font-size: 0.9rem;
   }
   .i2-skills {
     width: 100%;
