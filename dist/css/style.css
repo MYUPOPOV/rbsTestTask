@@ -388,6 +388,10 @@ a {
   .i1-general-title {
     font-size: 1.2rem;
   }
+  .i1-general-picture-img {
+    height: 300px;
+    border-radius: 150px;
+  }
   .i2-skills {
     width: 100%;
     flex-direction: column-reverse;
