@@ -360,6 +360,13 @@ a {
     justify-content: space-between;
     align-items: flex-end;
   }
+  .header-menu-items {
+    font-size: 0.7rem;
+    margin-left: 0;
+  }
+  .header-menu-item {
+    margin-left: 0;
+  }
   .i1-general {
     width: 100%;
     flex-direction: column-reverse;
@@ -409,11 +416,11 @@ a {
 }
 .i4-portfolio-git-line1-0 {
   opacity: 1;
-  width: 90%;
+  width: 500px;
   height: 60px;
 }
   .i4-portfolio-git-line1-1 {
-    width: 30%;
+    width: 150px;
     height: 80px;
   }
  .i5-about {
