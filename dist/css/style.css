@@ -348,6 +348,9 @@ a {
 }
 
 @media (max-width: 786px) {
+  html {
+    font-size: 0.8rem;
+  }
   .header {
     width: 100%;
     flex-direction: column;
