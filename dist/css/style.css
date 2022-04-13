@@ -397,6 +397,9 @@ a {
   .i2-skills-item {
     font-size: 0.7rem;
   }
+  .i2-skills-item-box {
+      padding-left: 0px;
+   }
   .i3-exp {
     width: 100%;
     flex-direction: column;
