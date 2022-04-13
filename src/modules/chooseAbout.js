@@ -1,5 +1,5 @@
 const chooseAbout = () => {
-	const chooseBlock = document.querySelector('.i5-about-choose');
+	const chooseBlock = $('.i5-about-choose')[0];
 	const chooseBlockAll = document.querySelectorAll('.i5-about-choose-block');
 	const aboutContentAll = document.querySelectorAll('.i5-about-content');
 
@@ -18,6 +18,11 @@ const chooseAbout = () => {
 
 	aboutContentAll[0].classList.toggle('hidden');
 	chooseBlockAll[0].classList.toggle('selected');
+
+	// const findJS
+	console.log(document.getElementById('find-me'));
+	// const findJQ
+	console.log($('.i2-skills-right-block')[0]);
 };
 
 export default chooseAbout;

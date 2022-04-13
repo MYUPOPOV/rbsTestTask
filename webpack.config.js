@@ -1,5 +1,7 @@
 const path = require('path');
 
+var webpack = require('webpack');
+
 module.exports = {
 	context: path.resolve(__dirname, 'src'),
 
@@ -18,4 +20,10 @@ module.exports = {
 			watch: true,
 		},
 	},
+	plugins: [
+		new webpack.ProvidePlugin({
+			$: 'jquery',
+			jQuery: 'jquery',
+		}),
+	],
 };

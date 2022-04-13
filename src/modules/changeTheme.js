@@ -30,11 +30,9 @@ const changeTheme = () => {
 			localStorage.setItem('isDarkMode', false);
 		}
 		isDarkMode = localStorage.getItem('isDarkMode');
-		console.log('~ isDarkMode', isDarkMode);
 	});
 
 	let isDarkMode = localStorage.getItem('isDarkMode');
-	console.log('~ isDarkMode', isDarkMode);
 
 	if (isDarkMode === 'true') {
 		toggleTheme();
