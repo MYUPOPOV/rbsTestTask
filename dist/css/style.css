@@ -370,6 +370,7 @@ a {
     justify-content: flex-start;
   }
   .header-menu-item {
+    margin-left: 0;
     margin-right: 7px;
   }
   .i1-general {
