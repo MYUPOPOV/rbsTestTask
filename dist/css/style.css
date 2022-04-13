@@ -380,6 +380,9 @@ a {
     margin-top: 0;
     margin-bottom: 30px;
   }
+  .section-title .i1-general-title {
+    font-size: 0.8rem;
+  }
   .i2-skills {
     width: 100%;
     flex-direction: column-reverse;
