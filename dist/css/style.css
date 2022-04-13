@@ -260,7 +260,6 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-
 }
 .i5-about-choose-block{
   width: 15%;
@@ -361,9 +360,6 @@ a {
     justify-content: space-between;
     align-items: flex-end;
   }
-  .footer-wrapper {
-    width: 100%;
-  }
   .i1-general {
     width: 100%;
     flex-direction: column-reverse;
@@ -413,12 +409,12 @@ a {
 }
 .i4-portfolio-git-line1-0 {
   opacity: 1;
-  width: 526px;
-  height: 40px;
+  width: 90%;
+  height: 60px;
 }
   .i4-portfolio-git-line1-1 {
-    width: 160px;
-    height: 90px;
+    width: 30%;
+    height: 80px;
   }
  .i5-about {
   width: 100%;
@@ -440,6 +436,13 @@ a {
   width: 100%;
 }
 .i5-about-content-part {
+  width: 100%;
+}
+.i5-about-choose {
+  display: flex;
+  flex-direction: column;
+}
+.i5-about-choose-block{
   width: 100%;
 }
 .i6-contacts {
