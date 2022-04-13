@@ -236,7 +236,6 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  /* align-items: flex-start;  */
   margin-top: 100px;
   margin-bottom: 100px;
   height: 500px;
@@ -389,6 +388,9 @@ a {
   .i2-skills-all-items {
     width: 100%;
   }
+  .i2-skills-item {
+    font-size: 0.7rem;
+  }
   .i3-exp {
     width: 100%;
     flex-direction: column;
@@ -444,6 +446,7 @@ a {
 }
 .i5-about-content-part {
   width: 100%;
+  margin-top: 10px;
 }
 .i5-about-choose {
   display: flex;
@@ -451,6 +454,7 @@ a {
 }
 .i5-about-choose-block{
   width: 100%;
+  margin-top: 10px;
 }
 .i6-contacts {
   width: 100%;
