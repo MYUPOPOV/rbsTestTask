@@ -362,6 +362,7 @@ a {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    margin-left: 10px;
   }
   .header-menu-items {
     font-size: 0.6rem;
@@ -387,6 +388,9 @@ a {
   .section-title {
     font-size: 1.5rem;
     font-weight: bold;
+  }
+  .section-wrapper {
+    width: 100%;
   }
   .i1-general-title {
     font-size: 1.2rem;
