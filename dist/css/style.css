@@ -373,6 +373,9 @@ a {
     margin-left: 0;
     margin-right: 7px;
   }
+  .header-menu-theme-button {
+    font-size: 0.7rem;
+  }
   .i1-general {
     width: 100%;
     flex-direction: column-reverse;
