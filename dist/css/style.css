@@ -87,7 +87,7 @@ a {
   cursor: pointer;
 }
 .header-menu-theme-button:hover {
-  background-color: rgb(127, 255, 212, 1);
+  background-color: rgb(127, 255, 212, 0.7);
 }
 .main {
   display: flex;
@@ -145,7 +145,7 @@ a {
 }
 .i2-skills-item-box {
   border: solid 1px;
-  background-color: rgb(127, 255, 212, 0.5);
+  background-color: rgb(127, 255, 212, 0.3);
   padding: 2px;
   padding-left: 10px;
   margin-left: 10px;
@@ -236,17 +236,24 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  align-items: center; 
+  /* align-items: flex-start;  */
   margin-top: 100px;
   margin-bottom: 100px;
+  height: 500px;
+}
+.i5-about-left-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 .i5-about-right-block {
   width: 70%;
   display: flex;
   flex-direction: column;
   text-align: justify;
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: space-evenly;
 }
 .i5-about-choose {
   width: 100%;
@@ -257,7 +264,7 @@ a {
 }
 .i5-about-choose-block{
   width: 15%;
-  background-color: rgb(127, 255, 212, 0.3);
+  background-color: rgb(127, 255, 212, 0.2);
   border: solid 1px;
   padding: 10px;
   cursor: pointer;
@@ -269,6 +276,10 @@ a {
 .i5-about-choose-block:hover {
   background-color: rgb(127, 255, 212, 0.7);
 }
+.i5-about-choose-block.selected {
+  background-color: rgb(127, 255, 212, 0.7);
+}
+
 .i5-about-content {
   display: flex;
   flex-direction: row;
@@ -295,9 +306,6 @@ a {
 .i5-about-content-part-text {
   margin-top: 30px;
 }
-.i6.dark-mode {
-  background-color: rgb(0, 0, 0, 0.92);
-}
 .i6-contacts {
   display: flex;
   flex-direction: row;
@@ -305,6 +313,9 @@ a {
   align-items: center; 
   padding-top: 100px;
   padding-bottom: 100px;
+}
+.i6.dark-mode {
+  background-color: rgb(0, 0, 0, 0.92);
 }
 .i6-contacts-left-block {
   font-size: 18px;
@@ -336,4 +347,71 @@ a {
 }
 .hidden {
   display: none
+}
+
+@media (max-width: 786px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-end;
+    height: 90px;
+  }
+  .header-menu {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .i1-general {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .i2-skills {
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    align-items: center; 
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .i3-exp {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center; 
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .i4-portfolio {
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    align-items: center; 
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+/* .i4-portfolio-git-line1-0
+ .i4-portfolio-git-line1-1*/
+ .i5-about {
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center; 
+  margin-top: 0px;
+  margin-bottom: 30px;
+  height: auto;
+}
+.i5-about-content {
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center; 
+  margin-top: 30px;
+}
+.i5-about-content-part {
+  width: 100%;
+}
+.i6-contacts {
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
+  align-items: center; 
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
 }
