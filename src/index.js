@@ -1,3 +1,4 @@
+import $ from 'jquery';
 import chooseAbout from './modules/chooseAbout';
 import scrollIntoView from './modules/scrollIntoView';
 import changeTheme from './modules/changeTheme';
@@ -8,6 +9,7 @@ chooseAbout();
 scrollIntoView();
 changeTheme();
 stickMenu();
+$();
 skillsAnimation(
 	[
 		{

@@ -1,3 +1,5 @@
+import $ from 'jquery';
+
 const chooseAbout = () => {
 	const chooseBlock = $('.i5-about-choose')[0];
 	const chooseBlockAll = document.querySelectorAll('.i5-about-choose-block');
@@ -16,13 +18,15 @@ const chooseAbout = () => {
 		}
 	});
 
-	aboutContentAll[0].classList.toggle('hidden');
-	chooseBlockAll[0].classList.toggle('selected');
+	// $('.i5-about-choose-block')[0].toggleClass('hidden');
+	console.log($('.i5-about-choose-block')[0]);
 
-	// const findJS
-	console.log(document.getElementById('find-me'));
-	// const findJQ
-	console.log($('.i2-skills-right-block')[0]);
+	const elem = $('.i5-about-choose-block')[0];
+	console.log('~ elem', elem);
+
+	elem.addClass('selected');
+	// $('.i5-about-choose-block')[0].addClass('selected');
+	// chooseBlockAll[0].classList.toggle('selected');
 };
 
 export default chooseAbout;
