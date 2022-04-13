@@ -361,6 +361,9 @@ a {
     justify-content: space-between;
     align-items: flex-end;
   }
+  .footer-wrapper {
+    width: 100%;
+  }
   .i1-general {
     width: 100%;
     flex-direction: column-reverse;
@@ -377,6 +380,12 @@ a {
     margin-top: 0;
     margin-bottom: 30px;
   }
+  .i2-skills-left-block {
+    width: 100%;
+  }
+  .i2-skills-all-items {
+    width: 100%;
+  }
   .i3-exp {
     width: 100%;
     flex-direction: column;
@@ -384,6 +393,12 @@ a {
     align-items: center; 
     margin-top: 0;
     margin-bottom: 30px;
+  }
+  .i3-exp-right-block {
+    width: 100%;
+  }
+  .i3-exp-profie {
+    width: 100%;
   }
   .i4-portfolio {
     width: 100%;
@@ -393,8 +408,18 @@ a {
     margin-top: 0px;
     margin-bottom: 30px;
   }
-/* .i4-portfolio-git-line1-0
- .i4-portfolio-git-line1-1*/
+  .i4-portfolio-left-block {
+    width: 100%;
+}
+.i4-portfolio-git-line1-0 {
+  opacity: 1;
+  width: 526px;
+  height: 40px;
+}
+  .i4-portfolio-git-line1-1 {
+    width: 160px;
+    height: 90px;
+  }
  .i5-about {
   width: 100%;
   flex-direction: column;
@@ -411,6 +436,9 @@ a {
   align-items: center; 
   margin-top: 30px;
 }
+.i5-about-right-block {
+  width: 100%;
+}
 .i5-about-content-part {
   width: 100%;
 }
@@ -421,5 +449,8 @@ a {
   align-items: center; 
   margin-top: 0px;
   margin-bottom: 30px;
+}
+.footer-wrapper {
+  width: 100%;
 }
 }
