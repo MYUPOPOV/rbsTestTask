@@ -347,7 +347,7 @@ a {
   display: none
 }
 
-@media (max-width: 786px) {
+@media (max-width: 1024px) {
   html {
     font-size: 0.8rem;
   }
@@ -386,7 +386,7 @@ a {
     font-weight: bold;
   }
   .i1-general-title {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
   }
   .i2-skills {
     width: 100%;
