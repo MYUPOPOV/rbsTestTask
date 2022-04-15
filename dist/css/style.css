@@ -146,9 +146,8 @@ a {
 .i2-skills-item-box {
   border: solid 1px;
   background-color: rgb(127, 255, 212, 0.3);
-  padding: 2px;
+  padding: 3px;
   padding-left: 10px;
-  margin-left: 10px;
   margin-right: 10px; 
   font-size: 0.9rem;
 }
