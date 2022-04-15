@@ -36,7 +36,7 @@ skillsAnimation(
 		},
 		{
 			skill: 'GULP',
-			value: 10,
+			value: 30,
 		},
 		{
 			skill: 'PUG',
