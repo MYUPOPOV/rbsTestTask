@@ -1,7 +1,8 @@
 const path = require('path');
 
-var webpack = require('webpack');
-// var $ = require('jquery');
+const webpack = require('webpack');
+const bootstrap = require('bootstrap');
+// const $ = require('jquery');
 
 module.exports = {
 	context: path.resolve(__dirname, 'src'),
