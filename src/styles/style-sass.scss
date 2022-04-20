@@ -1,0 +1,10 @@
+
+$color1: green;
+
+.header {
+  background-color: $color1;
+  height: 100px;
+  .header-menu-item {
+    margin-left: 120px;
+  }
+}
