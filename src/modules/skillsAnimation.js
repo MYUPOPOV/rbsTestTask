@@ -17,7 +17,7 @@ const skillsAnimation = (skillsArray, time) => {
 	const animateItem = (index, time) => {
 		skillItems[index].style.opacity = '1';
 		animate({
-			duration: time,
+			duration: (time * skillsArray[index].value) / 30,
 			timing(timeFraction) {
 				return timeFraction;
 			},
