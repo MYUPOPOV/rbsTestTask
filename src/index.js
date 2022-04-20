@@ -28,15 +28,15 @@ skillsAnimation(
 		},
 		{
 			skill: 'SCSS/SASS',
-			value: 20,
+			value: 40,
 		},
 		{
 			skill: 'BOOTSTRAP',
-			value: 20,
+			value: 30,
 		},
 		{
 			skill: 'GULP',
-			value: 10,
+			value: 40,
 		},
 		{
 			skill: 'PUG',
