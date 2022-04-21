@@ -146,10 +146,11 @@ a {
 .i2-skills-item-box {
   border: solid 1px;
   background-color: rgb(127, 255, 212, 0.3);
-  padding: 3px;
+  /* padding: 2px; */
   padding-left: 10px;
   margin-right: 10px; 
   font-size: 0.9rem;
+  height: 25px;
 }
 .i3.dark-mode {
   background-color: rgb(0, 0, 0, 0.9);

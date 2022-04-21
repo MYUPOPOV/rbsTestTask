@@ -21,6 +21,10 @@ gulp.task('render-css', () => {
 });
 
 // exports.buildStyles = buildStyles;
-exports.watch = function () {
-	gulp.watch('./sass/**/*.scss', ['sass']);
-};
+// exports.watch = function () {
+// 	gulp.watch('./sass/**/*.scss', ['sass']);
+// };
+
+gulp.task('watch', () => {
+	gulp.watch('./src/styles/*.scss', gulp.series('render-css'));
+});
